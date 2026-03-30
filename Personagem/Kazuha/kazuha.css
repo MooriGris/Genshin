@@ -1,4 +1,3 @@
-
 body {
     margin: 10px;
     padding: 0;
@@ -6,10 +5,10 @@ body {
     min-height: 100vh;
 }
 
-/*Essa é a foto do topo, o Namecard da Keqing*/
+/*Essa é a foto do topo, o Namecard do Kazuha*/
 /*O ../ é para o código entender que tem que sair da pasta em que está (Personagem), o ./ é para procurar dentro da pasta, o ../ é pra olhar dentro de outra pasta, e ai ele vai pra pasta Fotos, na pasta Foto Kaedehara Kazuha, e ai procura a foto Kazuha Namecard.jpeg*/
 header {
-    background-image: url("../Fotos/Foto Keqing/Namecard Keqing.jpeg");
+    background-image: url("../../Fotos/Foto Kaedehara Kazuha/Kazuha Namecard.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +23,7 @@ header {
 }
 
 /*Esse é o recuo (padding-left) tipo parágrafo e o recuo entre a imagem (padding-top)*/
-.Keqing {
+.Kazuha {
     padding-left: 50px;
     padding-top: 20px;
 }
