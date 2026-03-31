@@ -5,7 +5,7 @@ body {
     min-height: 100vh;
 }
 
-#tela-carregamento-saida {
+#tela-kazuha {
     position: fixed;
     top: 0;
     left: 0;
@@ -19,7 +19,7 @@ body {
 }
 
 /* A classe que joga o bloco para fora da tela */
-.deslizar-esquerda {
+.deslizar-kazuha {
     transform: translateX(-100%); 
 }
 

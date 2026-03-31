@@ -1,9 +1,6 @@
-// O "window" representa a aba do navegador. 
-// O evento 'load' avisa quando o HTML, imagens e CSS terminaram de carregar.
-
 window.addEventListener('load', function() {
     // Pegamos o nosso bloco
-    const bloco = document.getElementById('tela-kazuha');
+    const bloco = document.getElementById('tela-ayato');
     
     // Escuta o evento que o CSS dispara exatamente quando a animação de deslizar termina
     bloco.addEventListener('transitionend', function() {
@@ -13,6 +10,6 @@ window.addEventListener('load', function() {
     // Um pequeno truque (requestAnimationFrame) para garantir que o navegador 
     // está pronto antes de jogar a classe da animação
     requestAnimationFrame(() => {
-        bloco.classList.add('deslizar-kazuha');
+        bloco.classList.add('deslizar-ayato');
     });
 });

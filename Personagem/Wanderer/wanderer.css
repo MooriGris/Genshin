@@ -1,0 +1,24 @@
+body {
+    margin: 10px;
+    padding: 0;
+    background: linear-gradient(160deg, #759c99 15%, #455757 85%);
+    min-height: 100vh;
+}
+
+#tela-wanderer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0F2628; /* A sua cor */
+    z-index: 9999;
+    
+    /* Prepara o bloco para deslizar de forma suave por 1 segundo */
+    transition: transform 1s ease-in-out; 
+}
+
+/* A classe que joga o bloco para fora da tela */
+.deslizar-wanderer {
+    transform: translateX(-100%); 
+}

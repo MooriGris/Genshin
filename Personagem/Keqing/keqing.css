@@ -6,6 +6,25 @@ body {
     min-height: 100vh;
 }
 
+#tela-keqing {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1F152C; /* A sua cor */
+    z-index: 9999;
+    
+    /* Prepara o bloco para deslizar de forma suave por 1 segundo */
+    transition: transform 1s ease-in-out; 
+}
+
+/* A classe que joga o bloco para fora da tela */
+.deslizar-keqing {
+    transform: translateX(-100%); 
+}
+
+
 /*Essa é a foto do topo, o Namecard da Keqing*/
 /*O ../ é para o código entender que tem que sair da pasta em que está (Personagem), o ./ é para procurar dentro da pasta, o ../ é pra olhar dentro de outra pasta, e ai ele vai pra pasta Fotos, na pasta Foto Kaedehara Kazuha, e ai procura a foto Kazuha Namecard.jpeg*/
 header {
