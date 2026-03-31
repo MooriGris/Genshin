@@ -16,3 +16,15 @@ window.addEventListener('load', function() {
         bloco.classList.add('deslizar-kazuha');
     });
 });
+
+window.addEventListener('scroll', function() {
+    // Pega a div do fundo
+    const fundo = document.getElementById('Wallpaper-kazuha');
+    
+    // Descobre o quanto a pessoa já rolou a página para baixo
+    let rolagem = window.scrollY;
+    
+    // Move a foto no eixo Y. O "0.4" é a velocidade. 
+    // Quanto menor o número, mais devagar a foto rola.
+    fundo.style.backgroundPosition = 'center ' + (rolagem * 0.4) + 'px';
+});

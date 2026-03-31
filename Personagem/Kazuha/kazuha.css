@@ -1,8 +1,19 @@
 body {
     margin: 10px;
     padding: 0;
-    background: linear-gradient(160deg, #759c99 15%, #455757 85%);
-    min-height: 100vh;
+    
+.fundo-kazuha {
+    background-image: url("../../Fotos/Foto Kaedehara Kazuha/Kazuha attack.jpeg");
+    background-size: cover;
+    background-position: center 0px; /* Começa no eixo Y zerado */
+    height: 100vh;
+    width: 100%;
+    position: fixed; /* Fica fixo atrás de tudo */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Joga a imagem para trás do conteúdo */
+}
+
 }
 
 #tela-kazuha {
