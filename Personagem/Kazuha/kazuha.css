@@ -34,26 +34,39 @@ body {
     transform: translateX(-100%); 
 }
 
+.Kazuha{
+
+   background-color: rgba (0, 0, 0, 0.6);
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+
+   border: 1px solid white;
+   color: white;
+
+   padding: 40px;
+   max-width: 400px;
+   margin: 100px auto;
+   border-radius: 15px;
+   text-align: center;
+
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    
+}
 
 /*Essa é a foto do topo, o Namecard do Kazuha*/
 /*O ../../ é para o código entender que tem que sair da pasta em que está (Kazuha, e em seguida Personagem), o ./ é para procurar dentro da pasta, o ../ é pra olhar dentro de outra pasta, e ai ele vai pra pasta Fotos, na pasta Foto Kaedehara Kazuha, e ai procura a foto Kazuha Namecard.jpeg*/
-header {
-    background-image: url("../../Fotos/Foto Kaedehara Kazuha/Kazuha Namecard.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    border: 3px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 25px;
+/* header { */
+    /* background-image: url("../../Fotos/Foto Kaedehara Kazuha/Kazuha Namecard.jpeg"); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+/*  */
+    /* border: 3px solid #ffffff; */
+    /* box-sizing: border-box; */
+    /* border-radius: 25px; */
     
     /*Essa é a largura da foto (height) e o de ir até o final da página (width)*/
-    height: 120px; 
-    width: 100%;
-}
-
-/*Esse é o recuo (padding-left) tipo parágrafo e o recuo entre a imagem (padding-top)*/
-.Kazuha {
-    padding-left: 50px;
-    padding-top: 20px;
-}
+    /* height: 120px;  */
+    /* width: 100%; */
+/* } */
+/* Esse tanto de comentário é do antigo menu */
